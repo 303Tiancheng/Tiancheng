@@ -26,7 +26,7 @@ id2tag=dict(tag_df.values.tolist())
 
 # 特征模板，输入某个UID对应的grouop，返回list
 # 下面这个特征抽取函数将每个UID对应的记录条数作为一个一维特征
-def records_amount(group)
+def records_amount(group):
     features = []
     features.append(group.shape[0])
     return features
