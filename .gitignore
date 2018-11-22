@@ -115,4 +115,4 @@ dmypy.json
 .pyre/
 
 # pynb
-.ipynb/
+.ipynb
