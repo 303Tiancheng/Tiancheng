@@ -23,7 +23,8 @@ for name,group in transaction_grouped:
 # 标签数据,
 id2tag=dict(tag_df.values.tolist())
 
-id2operation[10000]
-group_o=id2operation[10000]
-group_t=id2transaction[10000]
-group_t.shape[0]
+
+# 特征模板，输入某个UID对应的grouop，返回list
+# 下面这个特征抽取函数将每个UID对应的记录条数作为一个一维特征
+def records_amount(group)
+    return group.shape[0]
